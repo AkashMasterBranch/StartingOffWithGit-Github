@@ -2,8 +2,6 @@
 Documenting git and github setup
 
 [To determine what licence to use for your code](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)
-
-(Guide to determine license may be added in future revisions)
 ------------------------------------------------------------------------------------------------------------------
 Git needs to be installed and ready (I am using Gitbash with windows)
 
