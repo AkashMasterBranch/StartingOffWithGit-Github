@@ -42,6 +42,32 @@ To finally commit, use
 To see what git has kept track of so far, use "git log" 
 "git status" lets you see what changed in your clone's current branch before commiting. 
 
+HEAD indicates the current commit you are viewing
+
+----
+Git environments
+- Working: updated to last commit
+- Staging: temporary location to queue changes (add) 
+- Commit:  creates new log entry with new hash (commit)
+File States
+- Tracked:   All commits
+  -  Unmodified: files havent changed since last commit
+  -  modified:   files have been changed
+  -  Staged:     at staging environment
+- Untracked: new files not commited yet
+
+When a file is not staged for commit, can discard changes with "restore" or move to staging with (add)
+
+
+
+----
+---
+vim?
+
+
+---
+
+
 - git push :  Updates github with new code changes from your clone (from git to github) - own branch
 - git pull :  Updates clone with new code changes from github (from github to git) - own branch
 - git fetch: Updates clone with new branches (from github to git) - clone knows about other branches
