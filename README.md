@@ -1,10 +1,15 @@
 # StartingOffWithGit-Github
 Documenting git and github setup
 
+Usefull Links:
 [To determine what licence to use for your code](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)
-------------------------------------------------------------------------------------------------------------------
+
+---
+Software needed:
+---
 Git needs to be installed and ready (I am using Gitbash with windows)
 
+---
 To set up a project with git, we need to first initialize configuration variables to get credit for changes. 
 
 Within Git, 
