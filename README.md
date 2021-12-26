@@ -49,9 +49,7 @@ To see what git has kept track of so far, use "git log"
   - harder to fix merge conflicts on github
 
 - git clone [github repo url]:     create a local clone of the github repo in your local computer
-- git clone --mirror [github repo url]: creates a server that you can put on a machine if another PC cannot access github.
 - git remote -v:                   this will tell you what .git servers (or mirrors) your clone is using. The origin one is what your clone was created from
-- git remote add [remote variable] [server url]: this is for if your clone is using multiple servers. You can have one clone update multiple github repositories.
 - git add [file_name(s)]:          adds new files to track in current git branch
 - git add -u [file_name(s)]:       updates tracked files to be committed in current git branch
 - git checkout [file_name(s)]:     undo all changes from the specified file
@@ -65,4 +63,13 @@ To see what git has kept track of so far, use "git log"
 - git revert [commit id]:          undo a commit that was made in your current branch
 - git stash:                       save off changes without adding or commiting on your local clone before switching to a new branch (for code you're not ready to commit)
 - git stash pop:                   recover and get back the saved off changes in the branch you ran the git stash command on
-- 
+
+you can configure the .gitconfig files for setting up various things like username, email, difftool, mergetool, and many other configurations.
+you can update the .gitignore file to ignore specific files for version control such as binaries like .exe files.
+
+The following are for ONLY if you're working with multiple git servers. You may have clones that update multiple github repositoriies. Or this may be useful if you have a PC that can access your computer (which has github access) but not have access to github or the internet. For example, a virtual machine or something similar.
+
+- git remote add [remote variable] [git server url]: this is for if your clone is using multiple servers. You can have one clone update multiple github repositories.
+- git clone --mirror [github repo url]: creates a server that you can put on a machine if another PC cannot access github. this is a .git folder which can act as a git server
+- git push [remote varaible] [branch name]: push your changes to the specific git server you're interested on updating
+- git pull [remote variable] [branch name]: pull your changes from from a specific git server
