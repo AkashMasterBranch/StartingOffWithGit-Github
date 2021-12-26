@@ -58,7 +58,13 @@ File States
 - Untracked: new files not commited yet
 
 When a file is not staged for commit, can discard changes with "restore" or move to staging with (add)
+> git restore FILENAME
 
+To restore current directory
+> git restore .
+
+Older version of restore 
+> git checkout .
 
 
 ----
