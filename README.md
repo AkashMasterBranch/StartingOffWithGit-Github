@@ -40,6 +40,7 @@ To finally commit, use
 > git commit -m "First Commit"
 
 To see what git has kept track of so far, use "git log" 
+
 "git status" lets you see what changed in your clone's current branch before commiting. 
 
 HEAD indicates the current commit you are viewing
