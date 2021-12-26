@@ -64,5 +64,5 @@ To see what git has kept track of so far, use "git log"
 - git reset HEAD:                  undo a git add if you accidentally add files or changes you do not want to commit
 - git revert [commit id]:          undo a commit that was made in your current branch
 - git stash:                       save off changes without adding or commiting on your local clone before switching to a new branch (for code you're not ready to commit)
-- **git stash pop:**                   recover and get back the saved off changes in the branch you ran the git stash command on
+- git stash pop:                   recover and get back the saved off changes in the branch you ran the git stash command on
 - 
