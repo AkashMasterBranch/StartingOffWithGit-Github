@@ -1,5 +1,6 @@
 # StartingOffWithGit-Github
 Documenting git and github setup
+
 [To determine what licence to use for your code](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)
 ------------------------------------------------------------------------------------------------------------------
 Git needs to be installed and ready (I am using Gitbash with windows)
