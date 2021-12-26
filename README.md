@@ -40,3 +40,9 @@ To finally commit, use
 > git commit -m "First Commit"
 
 To see what git has kept track of so far, use "git log" 
+
+Push:  Updates github with new code changes from your clone (from git to github) - own branch
+Pull:  Updates clone with new code changes from github (from github to git) - own branch
+Fetch: Updates clone with new branches (from github to git) - clone knows about other branches
+Merge: Combines code from any branch and your current branch (in git or github)
+- harfer to fix merge conflicts on github
