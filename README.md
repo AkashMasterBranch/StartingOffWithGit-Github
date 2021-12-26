@@ -49,6 +49,7 @@ To see what git has kept track of so far, use "git log"
   - harder to fix merge conflicts on github
 
 - git clone [github repo url]:     create a local clone of the github repo in your local computer
+- git clone --mirror [github repo url]: creates a server that you can put on a machine if another PC cannot access github.
 - git remote -v:                   this will tell you what .git servers (or mirrors) your clone is using. The origin one is what your clone was created from
 - git remote add [remote variable] [server url]: this is for if your clone is using multiple servers. You can have one clone update multiple github repositories.
 - git add [file_name(s)]:          adds new files to track in current git branch
