@@ -47,6 +47,7 @@ To see what git has kept track of so far, use "git log"
 - git fetch: Updates clone with new branches (from github to git) - clone knows about other branches
 - git merge [branch_name]: Combines code from any branch and your current branch (in git or github)
   - harder to fix merge conflicts on github
+- git merge --abort: undo merge if there are merge conflicts (can use to redo resolving merge)
 
 - git clone [github repo url]:     create a local clone of the github repo in your local computer
 - git remote -v:                   this will tell you what .git servers (or mirrors) your clone is using. The origin one is what your clone was created from
