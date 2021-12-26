@@ -48,11 +48,20 @@ To see what git has kept track of so far, use "git log"
 - git merge [branch_name]: Combines code from any branch and your current branch (in git or github)
   - harder to fix merge conflicts on github
 
-- git add [file_name(s)]:        adds new files to track in current git branch
-- git add -u [file_name(s)]:     updates tracked files to be committed in current git branch
-- git checkout [file_name(s)]:   undo all changes from the specified file
-- git checkout -b [branch_name]: create a new branch based on the current branch you are on
-- git checkout -t [branch_name]: change to a new branch you haven't been on before in your local clone (only need to do this first time only)
-- git checkout [branch_name]:    switch to a branch that is already existing on your local clone
-- git checkout [commit_id]:      switch to an older version of your current branch based on your commit history from git log
+- git clone [github repo url]:     create a local clone of the github repo in your local computer
+- git remote -v:                   this will tell you what .git servers (or mirrors) your clone is using. The origin one is what your clone was created from
+- git remote add [remote variable] [server url]: this is for if your clone is using multiple servers. You can have one clone update multiple github repositories.
+- git add [file_name(s)]:          adds new files to track in current git branch
+- git add -u [file_name(s)]:       updates tracked files to be committed in current git branch
+- git checkout [file_name(s)]:     undo all changes from the specified file
+- git commit -m "[commit message]": create a commit for your current branch with a commit message (each commit has a unique commit id)
+- git checkout -b [branch_name]:   create a new branch based on the current branch you are on
+- git checkout -t [branch_name]:   change to a new branch you haven't been on before in your local clone (only need to do this first time only)
+- git checkout [branch_name]:      switch to a branch that is already existing on your local clone
+- git checkout [commit_id]:        switch to an older version of your current branch based on your commit history from git log
+- git checkout HEAD:               go back to your current version of your branch
+- git reset HEAD:                  undo a git add if you accidentally add files or changes you do not want to commit
+- git revert [commit id]:          undo a commit that was made in your current branch
+- git stash:                       save off changes without adding or commiting on your local clone before switching to a new branch (for code you're not ready to commit)
+- git stash pop:                   recover and get back the saved off changes in the branch you ran the git stash command on
 - 
