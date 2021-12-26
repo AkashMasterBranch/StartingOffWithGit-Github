@@ -48,6 +48,6 @@ To see what git has kept track of so far, use "git log"
 - git merge: Combines code from any branch and your current branch (in git or github)
   - harder to fix merge conflicts on github
 
-git add:      adds new files to track in current git branch
-git add -u:   updates tracked files to be committed in current git branch
-git checkout: 
+- git add:      adds new files to track in current git branch
+- git add -u:   updates tracked files to be committed in current git branch
+- git checkout: 
