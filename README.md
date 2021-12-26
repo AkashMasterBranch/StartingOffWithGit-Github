@@ -42,11 +42,11 @@ To finally commit, use
 To see what git has kept track of so far, use "git log" 
 "git status" lets you see what changed in your clone's current branch before commiting. 
 
-> git push [branch_name]:  Updates github with new code changes from your clone (from git to github) - own branch
-> git pull:  Updates clone with new code changes from github (from github to git) - own branch
-> git fetch: Updates clone with new branches (from github to git) - clone knows about other branches
-> git merge: Combines code from any branch and your current branch (in git or github)
-- harfer to fix merge conflicts on github
+- git push [branch_name]:  Updates github with new code changes from your clone (from git to github) - own branch
+- git pull:  Updates clone with new code changes from github (from github to git) - own branch
+- git fetch: Updates clone with new branches (from github to git) - clone knows about other branches
+- git merge: Combines code from any branch and your current branch (in git or github)
+  - harder to fix merge conflicts on github
 
 git add:      adds new files to track in current git branch
 git add -u:   updates tracked files to be committed in current git branch
