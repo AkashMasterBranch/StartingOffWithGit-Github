@@ -67,7 +67,6 @@ Older version of restore
 > git checkout .
 
 
-----
 ---
 vim?
 
