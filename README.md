@@ -78,6 +78,19 @@ To restore current directory
 Older version of restore 
 > git checkout .
 
+---
+Ignoring files to avoid sharing info on github
+---
+Create .gitignore file with "touch .gitignore" or manually in file explorer
+Add what you want to ignore inside this file. ex: ".vscode/", "notes/"
+
+You can also use a global ignore file:
+> git config --global core.excludesfile [file]
+
+Clear cache when adding new conditions to .gitignore
+> git rm -r --cached .
+
+Then add and commit again 
 
 ---
 vim?
