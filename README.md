@@ -82,6 +82,7 @@ Older version of restore
 Ignoring files to avoid sharing info on github
 ---
 Create .gitignore file with "touch .gitignore" or manually in file explorer
+
 Add what you want to ignore inside this file. ex: ".vscode/", "notes/"
 
 You can also use a global ignore file:
