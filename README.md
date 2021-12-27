@@ -11,6 +11,11 @@ Software needed:
 Git needs to be installed and ready (I am using Gitbash with windows)
 
 ---
+Command Line Basics
+---
+- You can use "cd" with just the name of the file to move into this directory or use "cd .." to move to previous directory. 
+- Use "dir" to see the files in the directory if you need to. Alternatively, use ls -la to see the file names of all files along with their permissions and including hidden files starting with a period. 
+---
 Initial Setup
 ---
 To set up a project with git, we need to first initialize configuration variables to get credit for changes. 
@@ -77,11 +82,7 @@ Older version of restore
 ---
 vim?
 ---
-Command Line Basics
----
-- You can use "cd" with just the name of the file to move into this directory or use "cd .." to move to previous directory. 
-- Use "dir" to see the files in the directory if you need to. Alternatively, use ls -la to see the file names of all files along with their permissions and including hidden files starting with a period. 
----
+
 Other Useful Commands
 ---
 - git push :  Updates github with new code changes from your clone (from git to github) - own branch
