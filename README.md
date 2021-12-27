@@ -96,7 +96,7 @@ Clear cache when adding new conditions to .gitignore
 Then add and commit again 
 
 ---
-Deleting and Renaming files
+Deleting files
 ---
 To delete a file AND move this to staging, 
 > git rm FILENAME
@@ -108,6 +108,12 @@ To undo this, restore the file from staging, then restore the file to discard ch
 ---
 Renaming Files
 ---
+If done manually, shows deletion of original name and creation of new name as we are essentially creating new file and deleting the old one
+
+mv is used to move files. This works by moving the file to a new name and deleting the old one as mentioned above. 
+
+Rename file with the following
+> git mv OLDFILENAME NEWFILENAME
 
 
 ---
