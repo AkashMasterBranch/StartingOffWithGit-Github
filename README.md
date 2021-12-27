@@ -28,9 +28,7 @@ Use "dir" to see the files in the directory if you need to. Alternatively, use l
 
 Next, use "git init" to manage projects in the folder of the directory you are in. Git will now store information about the project here. 
 
-You can use "cd" with just the name of the file to move into this directory or use "cd .." to move to previous directory. 
-
---------------------------------------------------------------------------------------------------------------------------
+-----
 Staging Environment is a temporary area to store files we may want to commit later on. 
 To move a file to staging, 
 > git add FILENAME
@@ -75,7 +73,9 @@ Older version of restore
 
 ---
 vim?
-
+---
+Command Line Basics
+- You can use "cd" with just the name of the file to move into this directory or use "cd .." to move to previous directory. 
 
 ---
 
