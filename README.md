@@ -20,13 +20,11 @@ Within Git,
 > git config --global user.name "Akash Patel"
 > git config --global user.email "email@email.com"
 
-Make sure to use Github or Gitlab email address. Change email if necessary for different projects. 
+Make sure to use Github associated email address. Change email if necessary for different projects. 
 
 Next, create a folder on your PC to store project files. Navigate to this directory in Git by using 
 
 > cd c:/users/andthenwhereveritslocated
-
-Use "dir" to see the files in the directory if you need to. Alternatively, use ls -la to see the file names of all files along with their permissions and including hidden files starting with a period. 
 
 Next, use "git init" to manage projects in the folder of the directory you are in. Git will now store information about the project here. 
 
@@ -58,6 +56,7 @@ Git environments
 - Working: updated to last commit
 - Staging: temporary location to queue changes (add) 
 - Commit:  creates new log entry with new hash (commit)
+
 File States
 - Tracked:   All commits
   -  Unmodified: files havent changed since last commit
@@ -81,7 +80,7 @@ vim?
 Command Line Basics
 ---
 - You can use "cd" with just the name of the file to move into this directory or use "cd .." to move to previous directory. 
-
+- Use "dir" to see the files in the directory if you need to. Alternatively, use ls -la to see the file names of all files along with their permissions and including hidden files starting with a period. 
 ---
 Other Useful Commands
 ---
