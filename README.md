@@ -25,6 +25,7 @@ To set up a project with git, we need to first initialize configuration variable
 Within Git, 
 
 > git config --global user.name "Akash Patel"
+> 
 > git config --global user.email "email@email.com"
 
 Make sure to use Github associated email address. Change email if necessary for different projects. 
