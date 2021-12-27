@@ -79,6 +79,7 @@ Older version of restore
 vim?
 ---
 Command Line Basics
+---
 - You can use "cd" with just the name of the file to move into this directory or use "cd .." to move to previous directory. 
 
 ---
