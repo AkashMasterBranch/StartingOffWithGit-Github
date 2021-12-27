@@ -104,7 +104,7 @@ To delete a file AND move this to staging,
 
 To undo this, restore the file from staging, then restore the file to discard changes
 > git restore -S .
-
+>
 > git restore .
 
 ---
