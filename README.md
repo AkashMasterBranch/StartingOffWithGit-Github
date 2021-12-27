@@ -11,6 +11,8 @@ Software needed:
 Git needs to be installed and ready (I am using Gitbash with windows)
 
 ---
+Initial Setup
+---
 To set up a project with git, we need to first initialize configuration variables to get credit for changes. 
 
 Within Git, 
@@ -49,7 +51,9 @@ To see what git has kept track of so far, use "git log"
 
 HEAD indicates the current commit you are viewing
 
-----
+---
+Git environments and File States
+---
 Git environments
 - Working: updated to last commit
 - Staging: temporary location to queue changes (add) 
@@ -78,8 +82,8 @@ Command Line Basics
 - You can use "cd" with just the name of the file to move into this directory or use "cd .." to move to previous directory. 
 
 ---
-
-
+Other Useful Commands
+---
 - git push :  Updates github with new code changes from your clone (from git to github) - own branch
 - git pull :  Updates clone with new code changes from github (from github to git) - own branch
 - git fetch: Updates clone with new branches (from github to git) - clone knows about other branches
