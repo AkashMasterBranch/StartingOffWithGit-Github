@@ -1,7 +1,9 @@
 # StartingOffWithGit-Github
 Documenting git and github setup
 
+---
 Usefull Links:
+---
 
 [To determine what licence to use for your code](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)
 
@@ -92,6 +94,21 @@ Clear cache when adding new conditions to .gitignore
 > git rm -r --cached .
 
 Then add and commit again 
+
+---
+Deleting and Renaming files
+---
+To delete a file AND move this to staging, 
+> git rm FILENAME
+
+To undo this, restore the file from staging, then restore the file to discard changes
+> git restore -S .
+> git restore .
+
+---
+Renaming Files
+---
+
 
 ---
 vim?
