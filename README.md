@@ -17,6 +17,7 @@ Command Line Basics
 ---
 - You can use "cd" with just the name of the file to move into this directory or use "cd .." to move to previous directory. 
 - Use "dir" to see the files in the directory if you need to. Alternatively, use "ls -la" to see the file names of all files along with their permissions and including hidden files starting with a period. 
+- Press "CNTRL Z" to stop process. 
 ---
 Initial Setup
 ---
