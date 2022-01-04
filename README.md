@@ -118,9 +118,13 @@ mv is used to move files. This works by moving the file to a new name and deleti
 Rename file with the following
 > git mv OLDFILENAME NEWFILENAME
 
+---
+Comparing Differences between branches
+---
+> git diff
 
 ---
-vim?
+vim: built in text editor
 ---
 
 Other Useful Commands
