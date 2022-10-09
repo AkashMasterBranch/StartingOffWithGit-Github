@@ -130,8 +130,10 @@ Rename file with the following
 ---
 Make Tag in GitBash
 > $ git tag NameofTag_version
+
 Send to Github
 > $ git push --tags
+
 Delete Tag
 > $ git tag -d NameOfTag
 
