@@ -30,7 +30,8 @@ Within Git,
 > git config --global user.email "email@email.com"
 
 To check if it showed up, type in 
-> $git config --list 
+> $git config --global --list 
+//--list will show changes local to settings so add --global to see exactly whats in .gitconfig
 
 Make sure to use Github associated email address. Change email if necessary for different projects. 
 
