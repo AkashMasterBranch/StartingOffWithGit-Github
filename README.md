@@ -43,7 +43,7 @@ Next, use "git init" to manage projects in the folder of the directory you are i
 To make SSH key:
 > Make sure .ssh folder exists in home dir. In .ssh folder, type in ssh-keygen in terminal. Find id_rsa.pub and open it in notepad. Copy public key from notepad and paste into github --> settings --> SSh Keys
 
-or to clone someone else's or my stuff on github do:
+or to clone someone else's or my stuff on github, make sure gitbash in correct directory where you want to clone and then do:
 > git clone git@github.com:name/project.git
 ^SSH
 
