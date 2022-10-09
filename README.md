@@ -28,6 +28,7 @@ Within Git,
 > git config --global user.name "Akash Patel"
 > 
 > git config --global user.email "email@email.com"\
+
 To check if it showed up, type in 
 > $git config --list 
 
