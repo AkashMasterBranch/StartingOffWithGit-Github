@@ -38,7 +38,10 @@ Next, create a folder on your PC to store project files. Navigate to this direct
 
 > cd c:/users/andthenwhereveritslocated
 
-Next, use "git init" to manage projects in the folder of the directory you are in. Git will now store information about the project here. 
+Next, use "git init" to manage projects in the folder of the directory you are in. Git will now store information about the project here. (if making repo local to computer only, not on github)
+
+or to clone someone else's or my stuff on github do:
+> git clone git@github.com:name/project.git
 
 -----
 Staging Environment is a temporary area to store files we may want to commit later on. 
