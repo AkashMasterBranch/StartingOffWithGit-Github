@@ -42,6 +42,7 @@ Next, use "git init" to manage projects in the folder of the directory you are i
 
 or to clone someone else's or my stuff on github do:
 > git clone git@github.com:name/project.git
+^SSH
 
 -----
 Staging Environment is a temporary area to store files we may want to commit later on. 
