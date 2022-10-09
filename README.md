@@ -40,6 +40,9 @@ Next, create a folder on your PC to store project files. Navigate to this direct
 
 Next, use "git init" to manage projects in the folder of the directory you are in. Git will now store information about the project here. (if making repo local to computer only, not on github)
 
+To make SSH key:
+> Make sure .ssh folder exists in home dir. In .ssh folder, type in ssh-keygen in terminal. Find id_rsa.pub and open it in notepad. Copy public key from notepad and paste into github --> settings --> SSh Keys
+
 or to clone someone else's or my stuff on github do:
 > git clone git@github.com:name/project.git
 ^SSH
