@@ -127,6 +127,14 @@ mv is used to move files. This works by moving the file to a new name and deleti
 
 Rename file with the following
 > git mv OLDFILENAME NEWFILENAME
+---
+Make Tag in GitBash
+> $ git tag NameofTag_version
+Send to Github
+> $ git push --tags
+Delete Tag
+> $ git tag -d NameOfTag
+
 
 ---
 Comparing Differences between branches
