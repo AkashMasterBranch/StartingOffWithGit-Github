@@ -52,7 +52,9 @@ or to clone someone else's or my stuff on github, make sure gitbash in correct d
 -----
 Staging Environment is a temporary area to store files we may want to commit later on. 
 To move a file to staging, 
-> git add FILENAME
+> git add FILENAME 
+> 
+> git add FOLDERNAME/*  //if you want to include files inside folder
 
 Alternatively, can add all files using one of the following
 > git add --all
