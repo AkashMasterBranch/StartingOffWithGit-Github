@@ -218,3 +218,7 @@ git diff options
 GOOD PRACTICE
 - Commit message: 
 branchName: commit message
+
+update message
+- git rebase -i HEAD~2 //2 signifies latest at bottom to oldest at top
+- squash or s merges commit to 1 before (merges to oldest)
