@@ -153,6 +153,12 @@ Comparing Differences between branches
 vim: built in text editor
 ---
 
+---
+put & at end: Opening File or executing .exe w/out occupying terminal
+ex. notepad fileName.md &
+//include process id
+---
+
 Other Useful Commands
 ---
 - git push :  Updates github with new code changes from your clone (from git to github) - own branch
@@ -174,6 +180,7 @@ Other Useful Commands
 - git checkout [commit_id]:        switch to an older version of your current branch based on your commit history from git log
 - git checkout HEAD:               go back to your current version of your branch
 - git reset HEAD:                  undo a git add if you accidentally add files or changes you do not want to commit
+//ex. git HEAD~2: resets to 2 commits prior to current head (unstaged)
 - git revert [commit id]:          undo a commit that was made in your current branch
 - git stash:                       save off changes without adding or commiting on your local clone before switching to a new branch (for code you're not ready to commit)
 - git stash pop:                   recover and get back the saved off changes in the branch you ran the git stash command on
@@ -187,3 +194,7 @@ The following are for ONLY if you're working with multiple git servers. You may 
 - git clone --mirror [github repo url]: creates a server that you can put on a machine if another PC cannot access github. this is a .git folder which can act as a git server
 - git push [remote varaible] [branch name]: push your changes to the specific git server you're interested on updating
 - git pull [remote variable] [branch name]: pull your changes from from a specific git server
+
+GOOD PRACTICE
+- Commit message: 
+branchName: commit message
