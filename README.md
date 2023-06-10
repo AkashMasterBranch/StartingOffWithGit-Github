@@ -195,6 +195,19 @@ The following are for ONLY if you're working with multiple git servers. You may 
 - git push [remote varaible] [branch name]: push your changes to the specific git server you're interested on updating
 - git pull [remote variable] [branch name]: pull your changes from from a specific git server
 
+Can have single clone push or pull from multiple git servers like github
+and gitlab
+- git remote add gitlab git@gitlab.com:group14301423/Project1.git
+- git remote -v //check all remote git server's that clone is using
+//will need to specify after
+- git remote -v //remove server
+
+- git branch -a //Show remote vs local branches
+- git branch //shows only local branch
+- git branch -r //show only remote branches
+
+Can create own git server (git mirror)
+
 GOOD PRACTICE
 - Commit message: 
 branchName: commit message
