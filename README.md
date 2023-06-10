@@ -208,6 +208,13 @@ and gitlab
 
 Can create own git server (git mirror)
 
+git diff options
+- git diff
+- gitk > meld
+- git diff tool > meld
+- meld (free)
+- beyond compare (cost $$$)
+
 GOOD PRACTICE
 - Commit message: 
 branchName: commit message
